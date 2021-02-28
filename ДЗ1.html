@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__contorls">
+                    <img class="header__logo" src="img/logo.svg" alt="logo" width="44" height="38">
+                    <img src="img/loupe.svg" alt="loupe" width="26" height="27">
+                </div>
+                <div class="header__contorls">
+                    <button class="header__button">
+                        <img src="img/menu.svg" alt="loupe" width="26" height="27">
+                    </button>
+                    <a class="header__person-link" href="#"><img src="img/contact.svg" alt="loupe" width="26"
+                            height="27"></a>
+                    <a href="#"><img src="img/basket.svg" alt="loupe" width="26" height="27"></a>
+                </div>
+            </div>
+        </div>
+        <nav class="header__navigation">
+            menu
+            <ul>
+                <li>
+                    <h2>man</h2>
+                    <ul>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>woman</h2>
+                    <ul>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>kids</h2>
+                    <ul>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="brand">
+            <img src="img/man.jpg" alt="man" width="800" height="765">
+            <div class="brand__title-wrapper">
+                <h1 class="brand__title">the brand <span class="brand__subtitle">of luxerious <span
+                            class="brand__subtitle-pink">fashion</span></span></h1>
+            </div>
+        </section>
+        <section class="offers container">
+            <h2 class="visually-hidden">Offers</h2>
+            <ul class="offers__list">
+                <li class="offers__item offers__item--woman">
+                    <div>
+                        <h3>30% off</h3>
+                        <p>for women</p>
+                    </div>
+                </li>
+                <li class="offers__item offers__item--man">
+                    <h3>30% off</h3>
+                    <p>for women</p>
+                </li>
+                <li class="offers__item offers__item--kds">
+                    <h3>30% off</h3>
+                    <p>for women</p>
+                </li>
+                <li class="offers__item offers__item--accesories">
+                    <h3>30% off</h3>
+                    <p>for women</p>
+                </li>
+            </ul>
+        </section>
+        <section class="products">
+            <h2>Featured Items</h2>
+            <p>Shop for items based on what we featured in this week</p>
+            <ul>
+                <li>
+                    img
+                    <h3>ellery x m'o capsule</h3>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                        Ellery
+                        teams up with Moda Operandi.</p>
+                    <p>$52.00</p>
+                </li>
+                <li>
+                    img
+                    <h3>ellery x m'o capsule</h3>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p>$52.00</p>
+                </li>
+                <li>
+                </li>
+                <li>
+                    img
+                    <h3>ellery x m'o capsule</h3>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p>$52.00</p>
+                </li>
+            </ul>
+        </section>
+        <section class="advantages">
+            задание
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
